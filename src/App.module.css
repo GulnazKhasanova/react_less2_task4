@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+.interface{
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.interfaceInput{
+	width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    margin: 15px 0 15px 0;
+    color: rgb(19, 19, 19);
+    padding: 5px;
+}
+
+.buttonContainer {
+	width: 200px;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.button {
+	margin: 2px ;
+	height:50px;
+	padding: 0.5em 0.75em;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 92%);
+	font-size: 18px;
+	border: none;
+	transition: background-color 0.15s ease;
+}
+
+.button:hover {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+}
+
+.button:disabled {
+	background-color: var(--disabled-color);
+}
+
+
+.steps-item-button {
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 0.75rem 1rem;
+	background: #cccccc;
+	border: none;
+	margin-bottom: 0.25rem;
+}
+
+
+
+.span {
+	color: #fff;
+	font-size: 14px;
+}
+
+
